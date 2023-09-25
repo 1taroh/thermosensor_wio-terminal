@@ -19,17 +19,18 @@ while True:
     if len(data) >= max_size:
         data.pop(0)
     data.append(float(temperature))
-    # print("----------")
+    print("----------")
     # print(data)
+    print(temperature)
 
     # figure
     # plt.plot(data)
     # plt.draw()
     # plt.pause(1)
     # plt.cla()
-    if len(data) >= max_size:
-        break
-plt.plot(data)
-plt.ylim(-10,40)
-plt.savefig("./figure/fig.png")
+#     if len(data) >= max_size:
+#         break
+# plt.plot(data)
+# plt.ylim(-10,40)
+# plt.savefig("./figure/fig.png")
 ser.close()
