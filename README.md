@@ -10,3 +10,6 @@ thermosensor using a wio terminal with arduino, python
 2. `pip install -r requirements.txt`
 3. download Arduino IDE
 4. Upload `thermosensor.ino` to your wio Terminal
+5. `python3 main.py`
+
+You will see the ambient temperature by serial communications.
