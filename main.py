@@ -11,7 +11,7 @@ max_size = 50
 data = []
 
 # define figure
-fig = plt.figure()
+# fig = plt.figure()
 
 while True:
     try:
