@@ -21,7 +21,7 @@ while True:
     if len(data) >= max_size:
         data.pop(0)
     data.append(float(temperature))
-    print("----------")
+    # print("----------")
     print(temperature)
 
     # figure
