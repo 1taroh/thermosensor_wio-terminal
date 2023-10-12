@@ -17,4 +17,4 @@ thermosensor using a wio terminal with arduino, python
 
 You will see the ambient temperature by serial communications.
 
-![circuit](./figure/circuit.jpeg)
+![circuit](./figure/circuit.jpg)
