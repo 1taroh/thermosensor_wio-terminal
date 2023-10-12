@@ -2,7 +2,9 @@ import serial
 import matplotlib.pyplot as plt
 from matplotlib import animation
 
-ser = serial.Serial('/dev/ttyACM0', 9600, timeout=1)
+# ser = serial.Serial('/dev/ttyACM0', 9600, timeout=1) # for linux
+ser = serial.Serial('COM3', 9600, timeout=1) # for windows 
+# mode | find "COM" # use this command to find the serial port in terminal
 
 max_size = 50
 data = []
@@ -20,7 +22,6 @@ while True:
         data.pop(0)
     data.append(float(temperature))
     print("----------")
-    # print(data)
     print(temperature)
 
     # figure
